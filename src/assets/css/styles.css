@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h3 {
+  margin: 40px 0 0;
+}
+
+.img-item {
+  width: 80px;
+  height: 80px;
+}
+
+#list-items {
+  margin-top: 8px;
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.item {
+  display: inline-block;
+  transition: 0.4s all ease;
+  transition-delay: 0.1s;
+  border-radius: 5px;
+  background: #f2f2f2;
+  margin: 5px;
+  width: 14%;
+}
+
+.item:hover {
+  box-shadow: 5px 10px 18px #333;
+  cursor: pointer;
+  background: #42b983;
+  transform: scale(1, 1);
+  text-decoration: none;
+}
+
+.item:hover .pokemon-name {
+  color: #fff;
+}
+
+.item a {
+  font-size: 12px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+/* .item:hover .pokemon-type {
+  border: 0.5px solid #333;
+} */
+
+a {
+  color: #333;
+}
+br {
+  border: #727272 solid 1px;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar::placeholder {
+  color: #42b983;
+  text-align: center;
+}
+
+.search-icon {
+  color: #333;
+  text-decoration: none;
+  padding: 3px;
+  margin-left: 16px;
+}
+
+.search-icon:hover {
+  text-decoration: none;
+}
+
+.logo {
+  width: 137px;
+  height: 50px;
+  margin-right: 20px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png");
+  background-size: cover;
+}
+
+.logo:hover {
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  cursor: pointer;
+}
+
+#list-items .pokemon-name {
+  font-size: 12px;
+}
+
+#list-items .pokemon-type {
+  display: inline-block;
+  font-family: "Flexo-Medium", arial, sans-serif;
+  border-radius: 3px;
+  line-height: 16px;
+  /* max-width: 110px; */
+  width: max-content;
+  margin: 0 1.5625% 4px 0px;
+  width: 46.4375%;
+  /* float: left; */
+  text-transform: none;
+  font-size: 11px;
+  text-align: center;
+}
+
+input {
+  border: none;
+}
+
+.grassType {
+  background: #9bcc50;
+}
+
+.poisonType {
+  background: #b97fc9;
+}
+.fireType {
+  background: #fd7d24;
+}
+.flyingType {
+  background: linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
+}
+.waterType {
+  background: #4592c4;
+}
+.bugType {
+  background: #729f3f;
+}
+.normalType {
+  background: #a4acaf;
+}
+.electricType {
+  background: #eed535;
+}
+.groundType {
+  background: linear-gradient(180deg, #f7de3f 50%, #ab9842 50%);
+}
+.psychicType {
+  background: #f366b9;
+}
+.iceType {
+  background: #51c4e7;
+}
+.dragonType {
+  background: linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
+}
+.fightingType {
+  background: linear-gradient(180deg, #d56723 50%, #d56723 50%);
+}
+.rockType {
+  background: #a38c21;
+}
+.iceType {
+  background: #51c4e7;
+}
+.darkType {
+  background: #707070;
+}
+.ghostType {
+  background: #7b62a3;
+}
+/* End Hellword.vue css  */
+
+/* Begin PokemonDetail.vue css  */
+
+/* End PokemonDetail.vue css  */
