@@ -29,6 +29,7 @@ if (process.env.NODE_ENV === "production") {
     },
     error(error) {
       console.error("Error during service worker registration:", error);
-    },
+      // eslint-disable-next-line prettier/prettier
+    }
   });
 }

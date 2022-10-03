@@ -26,18 +26,22 @@ const objectColor = {
   Dragon: "dragonType",
   Fighting: "fightingType",
   Rock: "rockType",
-  Ice: "iceType",
+  // eslint-disable-next-line prettier/prettier
+  Ice: "iceType"
 };
 
 export default {
   name: "PokemonType",
   props: {
-    types: Array,
+    // eslint-disable-next-line prettier/prettier
+    types: Array
   },
   methods: {
     typeColor(type) {
       return objectColor[type];
-    },
-  },
+      // eslint-disable-next-line prettier/prettier
+    }
+    // eslint-disable-next-line prettier/prettier
+  }
 };
 </script>

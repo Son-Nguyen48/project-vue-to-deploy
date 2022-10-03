@@ -123,14 +123,16 @@ const objectColor = {
   Rock: "rockType",
   Ice: "iceType",
   Dark: "darkType",
-  Ghost: "ghostType",
+  // eslint-disable-next-line prettier/prettier
+  Ghost: "ghostType"
 };
 import axios from "axios";
 export default {
   name: "PokemonDetail",
   data() {
     return {
-      pokemonDetail: {},
+      // eslint-disable-next-line prettier/prettier
+      pokemonDetail: {}
     };
   },
   created() {
@@ -153,12 +155,14 @@ export default {
   methods: {
     typeColor(type) {
       return objectColor[type];
-    },
-  },
+      // eslint-disable-next-line prettier/prettier
+    }
+    // eslint-disable-next-line prettier/prettier
+  }
 };
 </script>
 
-<style lang="css" scope>
+<style scope>
 .left {
   float: left;
 }
@@ -226,3 +230,4 @@ body {
   text-align: center;
 }
 </style>
+/* eslint-disable*/

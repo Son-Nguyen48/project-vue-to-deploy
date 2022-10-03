@@ -8,12 +8,14 @@ const routes = [
   {
     path: "/",
     name: "home",
-    component: Home,
+    // eslint-disable-next-line prettier/prettier
+    component: Home
   },
   {
     path: "/about",
     name: "detail",
-    component: () => import("../views/Detail/Detail.vue"),
+    // eslint-disable-next-line prettier/prettier
+    component: () => import("../views/Detail/Detail.vue")
   },
   {
     path: "/pokemon/:id",
@@ -21,16 +23,20 @@ const routes = [
     component: () => import("../views/Detail/PokemonDetail.vue"),
     props: (route) => {
       return {
-        ...route,
+        // eslint-disable-next-line prettier/prettier
+        route
       };
-    },
-  },
+      // eslint-disable-next-line prettier/prettier
+    }
+    // eslint-disable-next-line prettier/prettier
+  }
 ];
 
 const router = new VueRouter({
   mode: "history",
   base: process.env.BASE_URL,
-  routes,
+  // eslint-disable-next-line prettier/prettier
+  routes
 });
 
 export default router;

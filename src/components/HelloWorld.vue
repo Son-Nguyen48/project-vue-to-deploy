@@ -38,11 +38,12 @@ import PokemonType from "@/views/Home/PokemonType.vue";
 export default {
   name: "HelloWorld",
   components: {
-    PokemonType,
+    // eslint-disable-next-line prettier/prettier
+    PokemonType
   },
   props: {
-    msg: String,
     // eslint-disable-next-line prettier/prettier
+    msg: String
   },
   data() {
     return {
@@ -58,7 +59,8 @@ export default {
       .then((res) => {
         this.pokemons = res.data.pokemon;
       });
-  },
+    // eslint-disable-next-line prettier/prettier
+  }
   // eslint-disable-next-line prettier/prettier
   // methods: {
   //   routeToPokemonDetail(value) {

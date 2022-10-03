@@ -14,5 +14,6 @@ Vue.use(vWow);
 new Vue({
   router,
   store,
-  render: (h) => h(App),
+  // eslint-disable-next-line prettier/prettier
+  render: (h) => h(App)
 }).$mount("#app");

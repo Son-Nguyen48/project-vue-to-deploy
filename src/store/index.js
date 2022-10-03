@@ -8,5 +8,6 @@ export default new Vuex.Store({
   getters: {},
   mutations: {},
   actions: {},
-  modules: {},
+  // eslint-disable-next-line prettier/prettier
+  modules: {}
 });
